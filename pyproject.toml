@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sdat"
+version = "0.1.0"
+description = "A file-backed, Copilot-powered software development agent team."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+sdat = "sdat.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["sdat*"]

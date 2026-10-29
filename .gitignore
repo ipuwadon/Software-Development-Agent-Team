@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local secrets and authentication configuration.
+.env
+.env.*
+!.env.example
+.copilot/
+
+# Generated projects, requirements, reports, and execution logs.
+workspace/
